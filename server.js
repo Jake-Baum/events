@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
-var port = 8090;
+var port = process.env.OPENSHIFT_NODE_JS_PORT || 8090;
+var ip = provess.env.OPENSHIFT_NODE_JS_IP || "127.0.0.1";
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 

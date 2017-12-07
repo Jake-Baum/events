@@ -12,6 +12,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
   "author": "Jake Baum",
   "license": "ISC"
 }
